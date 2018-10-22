@@ -7,6 +7,7 @@ Laravel integrated with Admin LTE Boilerplate, Include Auth and Menus
 4. Run `php artisan serve`
 
 ##Utilities
+
 -Seeder
 -Auth
 -AdminLTE 2.4.2
