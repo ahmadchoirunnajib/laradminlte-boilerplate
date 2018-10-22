@@ -21,6 +21,8 @@
                     <li class="header">MENU</li>
                     <!-- Optionally, you can add icons to the links -->
                     <li class="{{ Active::check('dashboard', true) }}"><a href="{{ route('home') }}"><i class="fa  fa-dashboard"></i><span>Dashboard</span></a></li>
+                    <li class="{{ Active::check('dashboard', true) }}"><a href="{{ route('category.index') }}"><i class="fa  fa-certificate"></i><span>Category</span></a></li>
+                    <li class="{{ Active::check('dashboard', true) }}"><a href="{{ route('posts.index') }}"><i class="fa  fa-certificate"></i><span>Post</span></a></li>
                     <li><a href="{{ url('') }}"  target="_blank"><i class="fa fa-heart"></i><span>Visit Web</span></a></li>
 
                 </ul><!-- /.sidebar-menu -->

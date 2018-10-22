@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('category','CategoryController')->middleware('auth');
+Route::resource('posts','PostController')->middleware('auth');
+Route::delete('posts/deleteImage/{id}','PostController@deletePostImage')->name('posts.deletePostImage')->middleware('auth');
