@@ -11,6 +11,6 @@ Laravel integrated with Admin LTE Boilerplate, Include Auth and Menus
 - Seeder
 - Auth
 
-... Default user and password, email: admin@user.com password: secret
+⋅⋅⋅Default user and password, email: admin@user.com password: secret
 
 - AdminLTE 2.4.2
