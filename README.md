@@ -8,6 +8,6 @@ Laravel integrated with Admin LTE Boilerplate, Include Auth and Menus
 
 ##Utilities
 
--Seeder
--Auth
--AdminLTE 2.4.2
+- Seeder
+- Auth
+- AdminLTE 2.4.2
